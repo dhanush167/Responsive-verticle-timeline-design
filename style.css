@@ -59,6 +59,13 @@ body
     width: calc(50% - 40px);
     padding: 20px;
 }
+.row section .details,
+.row section .bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .wrapper .center-line
 {
