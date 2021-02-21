@@ -54,11 +54,12 @@ body
 
 .wrapper .row section
 {
-    background: #fff;
+    background: #282828;
     border-radius: 5px;
     width: calc(50% - 40px);
     padding: 20px;
     position: relative;
+    color: white;
 }
 
 .wrapper .row section::before
@@ -67,7 +68,7 @@ body
     content: "";
     height: 15px;
     width: 15px;
-    background: white;
+    background: #282828;
     top: 28px;
     z-index: -1;
     transform: rotate(45deg );
@@ -87,6 +88,20 @@ body
 {
     right: -7px;
 }
+
+.row section .icon
+{
+    position: absolute;
+    background: #ff7979;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    top: 13px;
+}
+
 .row section .details,
 .row section .bottom
 {
@@ -109,12 +124,12 @@ body
 .row section .bottom a
 {
     text-decoration: none;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     padding: 10px;
     border-radius: 20px;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .wrapper .center-line
