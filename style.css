@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src:url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src:url("fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src:url("fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Black";
+    src:url("fonts/Lato-Black.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato-Light";
+}
+
+body
+{
+    background: silver;
+}
+
+.wrapper
+{
+    max-width: 1080px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.wrapper .row
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wrapper .row section
+{
+    background: #fff;
+    border-radius: 5px;
+    width: calc(50% - 40px);
+}
+
+
