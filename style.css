@@ -67,6 +67,22 @@ body
     justify-content: space-between;
 }
 
+.row section .details .title
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row section p
+{
+    margin: 10px 0 17px 0;
+}
+
+.row section .bottom a
+{
+    text-decoration: none;
+}
+
 .wrapper .center-line
 {
     position: absolute;
